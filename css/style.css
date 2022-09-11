@@ -8,12 +8,18 @@ h1{
 	color: #00ff90;
 }
 
+
 p {
 	font-size: 20px;
-}
+	font-family: メイリオ;
+	font-weight: 900;
+	/* 行の高さの変更 */
+	line-height: 1;
+	text-align: justify;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-family: 'Noto Sans JP', sans-serif;
 
-
-div p {
-	color: aqua;
+	/* 第三引数は透明度。1が不透明 */
+	color: rgba(0, 0, 255, 0.8)
 }
 
